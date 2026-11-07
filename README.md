@@ -2,15 +2,13 @@
 
 🐈‍⬛ 終端機規則怪談與互動短篇。
 
-目前可玩的是 `game.py` 的第一案：`/lost`。它是純本機、純前端狀態的假終端機，**不會執行玩家輸入的 shell 指令**。
+目前可玩的是 `/lost`：純前端狀態的假終端機怪談，**不會執行玩家輸入的 shell 指令**。
 
 ## 遊玩
 
-```bash
-python3 game.py
-```
+直接玩：<https://ciri784.github.io/command-maze/>
 
-開啟 <http://127.0.0.1:8081>，輸入 `help` 開始。
+本機預覽可執行 `python3 game.py`，再開啟 <http://127.0.0.1:8081>。
 
 ## GitHub Pages
 
@@ -20,7 +18,7 @@ python3 game.py
 python3 build.py
 ```
 
-將產生的 `index.html` 部署到 GitHub Pages 即可。
+將產生的 `index.html` 推送到 `main`；GitHub Pages 會從 repo root 發布。
 
 ## 舊原型
 
@@ -44,4 +42,4 @@ python viewer.py
 
 ## 現狀
 
-私人專案，`/lost` 垂直切片製作中。🐈‍⬛
+公開遊戲中，`/lost` 是第一個可玩案例。🐈‍⬛
